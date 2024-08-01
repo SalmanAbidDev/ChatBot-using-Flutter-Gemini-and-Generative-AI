@@ -21,7 +21,7 @@ class _HomeScreenMaazState extends State<HomeScreenMaaz> {
   TextEditingController _inputController = TextEditingController();
   final model = GenerativeModel(
       model: 'gemini-1.5-flash',
-      apiKey: "AIzaSyC0YighKf3eYfYWxlSD9VJAhfqHm1h0zpQ");
+      apiKey: "YOUR_API_KEY");
 
   Future<void> inputText(String input) async {
     final content = [Content.text(input)];
